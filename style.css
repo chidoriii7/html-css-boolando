@@ -19,11 +19,14 @@ a {
 
 .top-page {
     background-color: #FF6900;
+    
 }
 
 .topitems {
     display: flex;
     justify-content: space-between;
+    max-width: 70%;
+    margin: auto;
 }
 
 .white-text {
@@ -37,6 +40,7 @@ a {
 
 
 .booleanlogo {
+    width: 180px;
     
 }
 
@@ -101,6 +105,12 @@ a {
 
 .oldprice {
     text-decoration: line-through;
+    font-size: 13px;
+}
+
+.bottom-side {
+    width: 100%;
+    background-color: #1A1A1A;
 }
 
 
